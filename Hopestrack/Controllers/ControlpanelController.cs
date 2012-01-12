@@ -152,6 +152,7 @@ namespace Hopestrack.Controllers
             return RedirectToAction("Menus");
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult Index()
         {
@@ -160,6 +161,7 @@ namespace Hopestrack.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult Pages()
         {
@@ -172,6 +174,7 @@ namespace Hopestrack.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult Images()
         {
@@ -181,6 +184,7 @@ namespace Hopestrack.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult InsertImage()
         {
@@ -196,6 +200,7 @@ namespace Hopestrack.Controllers
             ViewData["fileList"] = files;
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult EditPage(string pid)
         {
@@ -220,6 +225,7 @@ namespace Hopestrack.Controllers
             return RedirectToAction("Pages");
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult AddPage()
         {
@@ -228,6 +234,7 @@ namespace Hopestrack.Controllers
             return View(new PageModel());
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult AddImage()
         {
@@ -236,6 +243,7 @@ namespace Hopestrack.Controllers
             return View(new ImageModel());
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult Ajaxaddimage()
         {
@@ -243,6 +251,7 @@ namespace Hopestrack.Controllers
             return View(new ImageModel());
         }
 
+        [Authorize]
         [HttpPost]
         public ActionResult Ajaxaddimage(ImageModel file, HttpPostedFileBase image)
         {
@@ -265,6 +274,7 @@ namespace Hopestrack.Controllers
             return View(file);
         }
 
+        [Authorize]
         [HttpPost, ValidateInput(false)]
         public ActionResult EditPage(PageModel pageModel)
         {
@@ -285,7 +295,7 @@ namespace Hopestrack.Controllers
                     scope.Transaction.Commit();
                     try
                     {
-                        using (var connection = new SqlConnection("Data Source=208.91.198.196;Initial Catalog=admin_altus_system;Persist Security Info=True;User ID=admin_altus_system;Password=password@123"))
+                        using (var connection = new SqlConnection("Data Source=208.91.198.196;Initial Catalog=admin_hopestrack;Persist Security Info=True;User ID=hopestrack;Password=password@123"))
                         {
                             connection.Open();
                             string qry = "update content_page set [<_content>k___backing_field] = '" + pageModel.Content + "' where [<_id>k___backing_field]='" + page.Id + "'";
@@ -305,6 +315,7 @@ namespace Hopestrack.Controllers
             return View(pageModel);
         }
 
+        [Authorize]
         [HttpPost, ValidateInput(false)]
         public ActionResult AddPage(PageModel adPageModel)
         {
@@ -319,7 +330,7 @@ namespace Hopestrack.Controllers
                 scope.Transaction.Commit();
                 try
                 {
-                    using (var connection = new SqlConnection("Data Source=208.91.198.196;Initial Catalog=admin_altus_system;Persist Security Info=True;User ID=admin_altus_system;Password=password@123"))
+                    using (var connection = new SqlConnection("Data Source=208.91.198.196;Initial Catalog=admin_hopestrack;Persist Security Info=True;User ID=hopestrack;Password=password@123"))
                     {
                         connection.Open();
                         string qry = "update content_page set [<_content>k___backing_field] = '" + adPageModel.Content + "' where [<_id>k___backing_field]='" + contentPage.Id + "'";
@@ -337,6 +348,7 @@ namespace Hopestrack.Controllers
             return View(adPageModel);
         }
 
+        [Authorize]
         [HttpPost]
         public ActionResult AddImage(ImageModel file, HttpPostedFileBase image)
         {
@@ -360,6 +372,7 @@ namespace Hopestrack.Controllers
             return View(file);
         }
 
+        [Authorize]
         public ActionResult DeletePage(string pid)
         {
             var scope = ObjectScopeProvider1.GetNewObjectScope();
@@ -375,6 +388,7 @@ namespace Hopestrack.Controllers
             return RedirectToAction("Pages");
         }
 
+        [Authorize]
         public ActionResult DeleteImage(string id)
         {
             var scope = ObjectScopeProvider1.GetNewObjectScope();

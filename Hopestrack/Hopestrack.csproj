@@ -85,7 +85,6 @@
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\ControlpanelModel.cs" />
     <Compile Include="Models\ImageModel.cs" />
-    <Compile Include="ObjectScopeProvider1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -116,13 +115,11 @@
     <Content Include="Content\technology.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\arrows.gif" />
-    <Content Include="Images\banner.jpg" />
     <Content Include="Images\elrte-toolbar.png" />
     <Content Include="Images\google-maps.png" />
     <Content Include="Images\iframe.png" />
     <Content Include="Images\leftbg.png" />
     <Content Include="Images\loading.gif" />
-    <Content Include="Images\man_in_map.jpg" />
     <Content Include="Images\media-director.png" />
     <Content Include="Images\media-flash.png" />
     <Content Include="Images\media-quicktime.png" />
@@ -142,7 +139,6 @@
     <Content Include="Images\sq\spacer.jpg" />
     <Content Include="Images\sq\spacer1.jpg" />
     <Content Include="Images\sq\top.jpg" />
-    <Content Include="Images\text.png" />
     <Content Include="Scripts\Controlpanel.js" />
     <Content Include="Scripts\elrte.full.js" />
     <Content Include="Scripts\elrte.min.js" />
@@ -164,6 +160,7 @@
   <ItemGroup>
     <None Include="Images\sq\Thumbs.db" />
     <Content Include="Content\dynamicContent.css" />
+    <Content Include="Content\home.css" />
     <Content Include="Content\SpryMenuBarHorizontal.css" />
     <Content Include="Default.aspx" />
     <Content Include="Scripts\AC_RunActiveContent.js" />
@@ -173,7 +170,7 @@
     <Content Include="Views\Controlpanel\EditMenu.aspx" />
     <Content Include="Views\Controlpanel\menus.aspx" />
     <Content Include="Views\Home\Index.aspx" />
-    <Content Include="Web.server.config" />
+    <None Include="Web.config.server" />
     <Content Include="Content\Ajaxaddimage.css" />
     <Content Include="Content\jquery.fancybox-1.3.4.css" />
     <Content Include="Content\layout.css" />
@@ -243,7 +240,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties OpenAccess_EnhancementOutputLevel="1" OpenAccess_UpdateDatabase="False" OpenAccess_Enhancing="False" OpenAccess_ConnectionId="DatabaseConnection1" OpenAccess_ConfigFile="Web.config" />
+      <UserProperties OpenAccess_ConfigFile="Web.config" OpenAccess_ConnectionId="DatabaseConnection1" OpenAccess_Enhancing="True" OpenAccess_UpdateDatabase="False" OpenAccess_EnhancementOutputLevel="1" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

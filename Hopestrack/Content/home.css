@@ -1,0 +1,31 @@
+﻿div
+{
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	padding:10px;
+	margin:0px;
+	background-color: #fff;
+}
+.content
+{
+	padding:0px;
+	width: 700px;
+	margin: 0px auto;
+}
+.clear
+{
+	clear:both;
+	float:none;
+}
+#Menu
+{
+	list-style:none;
+}
+#Menu li
+{
+	float:left;
+	margin-right: 10px;
+}

@@ -69,6 +69,10 @@
                     </tbody>
                 </table>
             </li>
+            <li>
+                <input type="button" value="Add menu" onclick="window.location = '/controlpanel/addmenu';" />
+                <input type="button" value="Home" onclick="window.location = '/controlpanel';" />
+            </li>
         </ul>
         </form>
         <%
