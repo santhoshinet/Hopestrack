@@ -100,7 +100,6 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Ajaxaddimage.aspx" caret="0" fromTop="0" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:AddPage.aspx" caret="0" fromTop="0" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:Register.aspx" caret="0" fromTop="0" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:LogOn.aspx" caret="0" fromTop="0" />
@@ -119,7 +118,6 @@
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:menus.aspx" caret="2358" fromTop="16" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Pages.aspx" caret="2085" fromTop="23" />
       <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:ObjectScopeProvider1.cs" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="1946" fromTop="24" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="892" fromTop="26" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="6755" fromTop="39" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="0" fromTop="0" />
@@ -130,6 +128,8 @@
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:dynamicContent.css" caret="0" fromTop="0" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="0" fromTop="0" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:layout1.css" caret="0" fromTop="0" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:App.config" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="1601" fromTop="22" />
     </RecentFiles>
     <RecentEdits>
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="2845" fromTop="32" />
@@ -156,12 +156,12 @@
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="4901" fromTop="34" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="273" fromTop="0" />
       <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:ObjectScopeProvider1.cs" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="2105" fromTop="24" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="1702" fromTop="25" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="2504" fromTop="27" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="3443" fromTop="23" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="7224" fromTop="15" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="6730" fromTop="12" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="1601" fromTop="22" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
