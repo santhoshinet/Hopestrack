@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="AltusSystem, Version=1.0.0.0, Culture=neutral" ModuleId="AltusSystem" />
+  <Module PersistentId="BCE74F21-B02D-4DCE-8CC0-870255512739" ModuleId="Hopestrack" />
+  <Module PersistentId="AD1F532C-A9F4-4326-866F-4FA4EE9566C5" ModuleId="HopestrackDL" />
+</Modules>

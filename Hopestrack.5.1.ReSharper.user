@@ -1,0 +1,178 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Hopestrack" priority="0" />
+      <Item value="Controllers" priority="0" />
+      <Item value="HttpGet" priority="1" />
+      <Item value="Authorize" priority="2" />
+      <Item value="public" priority="1" />
+      <Item value="ActionResult`0" priority="1" />
+      <Item value="string" priority="3" />
+      <Item value="menus" priority="6" />
+      <Item value="HopestrackDL" priority="0" />
+      <Item value="menu" priority="7" />
+      <Item value="ViewData" priority="1" />
+      <Item value="ContentPage`0" priority="2" />
+      <Item value="contentPages" priority="6" />
+      <Item value="contentPage" priority="5" />
+      <Item value="MenuModel`0" priority="2" />
+      <Item value="menuModel" priority="10" />
+      <Item value="return" priority="1" />
+      <Item value="View`0" priority="0" />
+      <Item value="Menu`0" priority="3" />
+      <Item value="from" priority="0" />
+      <Item value="scope" priority="7" />
+      <Item value="where" priority="1" />
+      <Item value="c" priority="1" />
+      <Item value="select" priority="1" />
+      <Item value="if" priority="5" />
+      <Item value="else" priority="1" />
+      <Item value="ModelState" priority="3" />
+      <Item value="var" priority="1" />
+      <Item value="new" priority="1" />
+      <Item value="Name" priority="0" />
+      <Item value="Page" priority="0" />
+      <Item value="RedirectToAction`0" priority="0" />
+      <Item value="mid" priority="0" />
+      <Item value="MenuModel" priority="0" />
+      <Item value="MenuName" priority="0" />
+      <Item value="HttpPost" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="break" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HopestrackDL.Menu">
+      <Item value="ParentId" priority="0" />
+      <Item value="Page" priority="2" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="3" />
+      <Item value="ToLower`0" priority="3" />
+      <Item value="Trim`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HopestrackDL.ContentPage">
+      <Item value="Name" priority="7" />
+      <Item value="Id" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hopestrack.Models.MenuModel">
+      <Item value="MenuName" priority="6" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.IObjectScope">
+      <Item value="GetOqlQuery`0" priority="1" />
+      <Item value="Tracking" priority="0" />
+      <Item value="Transaction" priority="3" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.Query`1">
+      <Item value="ExecuteEnumerable`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="AddModelError`0" priority="0" />
+      <Item value="IsValid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.ITransaction">
+      <Item value="Begin`0" priority="1" />
+      <Item value="Commit`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Ajaxaddimage.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:AddPage.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:Register.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:LogOn.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:ChangePasswordSuccess.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:ChangePassword.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:AddImage.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Images.aspx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Index.aspx" caret="1151" fromTop="24" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Ctrladdimage.ascx" caret="564" fromTop="14" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:Menu.cs" caret="294" fromTop="13" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditPage.aspx" caret="1879" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Models/f:ImageModel.cs" caret="376" fromTop="14" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Models/f:ControlpanelModel.cs" caret="553" fromTop="23" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="1667" fromTop="12" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:AddMenu.aspx" caret="1908" fromTop="27" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:menus.aspx" caret="2358" fromTop="16" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Pages.aspx" caret="2085" fromTop="23" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:ObjectScopeProvider1.cs" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="1946" fromTop="24" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="892" fromTop="26" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="6755" fromTop="39" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Home/f:Index.aspx" caret="306" fromTop="5" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:Ajaxaddimage.css" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:dynamicContent.css" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:layout1.css" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="2845" fromTop="32" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="3107" fromTop="38" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="4036" fromTop="18" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="1304" fromTop="32" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="4772" fromTop="23" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="2522" fromTop="21" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="2631" fromTop="36" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="2160" fromTop="21" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="2259" fromTop="24" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="1954" fromTop="16" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="6423" fromTop="26" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="17206" fromTop="39" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="16760" fromTop="18" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="16890" fromTop="22" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="17032" fromTop="25" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="3416" fromTop="39" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="3416" fromTop="25" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="16308" fromTop="16" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="808" fromTop="15" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="1895" fromTop="33" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="4508" fromTop="28" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="4901" fromTop="34" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="273" fromTop="0" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:ObjectScopeProvider1.cs" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="2105" fromTop="24" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="1702" fromTop="25" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="2504" fromTop="27" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="3443" fromTop="23" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="7224" fromTop="15" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="6730" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
