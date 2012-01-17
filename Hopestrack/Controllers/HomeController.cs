@@ -53,6 +53,20 @@ namespace Hopestrack.Controllers
 
         public ActionResult Index()
         {
+                var scope = ObjectScopeProvider1.GetNewObjectScope();
+                var count = (from c in scope.GetOqlQuery<ContentPage>().ExecuteEnumerable()
+                             where c.Name.ToLower().Trim().Equals("index")
+                             select c).Count();
+                if (count > 0)
+                {
+                    var page = (from c in scope.GetOqlQuery<ContentPage>().ExecuteEnumerable()
+                                where c.Name.ToLower().Trim().Equals("index")
+                                select c).First();
+                    ViewData["Content"] = page.Content;
+                }
+                else
+                    ViewData["Content"] = "";
+
             return View();
         }
     }

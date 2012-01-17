@@ -1,0 +1,5 @@
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackConsole\bin\Debug\HopestrackConsole.exe
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackConsole\bin\Debug\HopestrackConsole.pdb
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackConsole\obj\Debug\HopestrackConsole.exe
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackConsole\obj\Debug\HopestrackConsole.pdb

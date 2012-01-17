@@ -13,3 +13,4 @@ C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackDL\bin\Debug\Telerik.Ope
 C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackDL\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackDL\obj\Debug\HopestrackDL.dll
 C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackDL\obj\Debug\HopestrackDL.pdb
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\HopestrackDL\bin\Debug\App.config

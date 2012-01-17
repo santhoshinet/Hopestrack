@@ -1,27 +1,14 @@
-.loginContent
-{
-	width: 750px;
-	margin: 20px auto;
-	padding-bottom: 20px;
-}
 FORM
 {
 	padding: 0px;
 	margin: 0px;
 	border: 1px solid #CCC;
-	background-color: #F5F5F5;
+	background-color: #f2f6f4;
 	width: 750px;
 	-moz-border-radius: 12px;
 	-khtml-border-radius: 12px;
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
-}
-.h1
-{
-	font-size: 2em;
-	border-bottom: 1px dotted #CCCCCC;
-	margin-right: 15px;
-	margin: 0px;
 }
 .ul
 {
@@ -55,23 +42,88 @@ FORM
 	font-size: 1.2em;
 	font-weight: bold;
 }
-.ul INPUT[type="text"]
+.loginContent
 {
-	padding: 3px;
-	width: 400px;
+	font-size: 0.75em;
+	font-family: Arial, Helvetica, Sans-Serif;
+	padding: 10px;
+	margin: 0px;
+	min-height: 400px;
+	width: 750px;
+	margin: 20px auto;
+	padding-bottom: 20px;
+}
+.loginContent .text-box
+{
+	width: 30em;
+}
+.loginContent .text-box.multi-line
+{
+	height: 6.5em;
+}
+.loginContent .tri-state
+{
+	width: 6em;
+}
+.loginContent P, UL
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-left: 10px;
+}
+.loginContent UL LI
+{
+	margin-top: 5px;
+}
+INPUT[type="button"], INPUT[type="submit"], INPUT[type="file"]
+{
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.loginContent INPUT[type="text"], INPUT[type="password"], TEXTAREA, INPUT[type="file"]
+{
+	width: 385px;
+	padding: 5px;
+	margin: 0px;	
+	border: 1px solid #A8E1C7;
+	background-color: #F8FEFC;
+	
+}
+.loginContent INPUT[type="button"], INPUT[type="submit"]
+{
+	border: 1px solid #666;
+	padding: 5px;
+	cursor: pointer;
+	width: 100px;
+	margin-top: 5px;
+	background: #444;
+	text-align: center;
 	border: 1px solid #AAA;
 	background-color: #F8FEFC;
+	padding: 8px;
+	cursor: pointer;
+	width: 160px;
 }
-.ul INPUT[type="password"]
+.loginContent INPUT[type="file"]
 {
-	padding: 3px;
-	width: 400px;
 	border: 1px solid #AAA;
 	background-color: #F8FEFC;
+	padding: 5px;
+	cursor: pointer;
+	width: 323px;
 }
-INPUT[type="text"]:focus, INPUT[type="password"]:focus
+.loginContent SELECT
 {
-	background-color: #FFFDD8;
+	width: 400px;
+	padding: 3px;
+	margin: 0px;
+}
+input[type="text"]:focus, input[type="password"]:focus,SELECT:focus,textarea:focus
+{
+	background-color: #fafbd4;
 	color: #111;
 }
 INPUT[type="submit"]:hover, INPUT[type="button"]:hover
@@ -82,26 +134,94 @@ INPUT[type="submit"]:focus, INPUT[type="button"]:focus
 {
 	background-color: #FFFDD8;
 }
-INPUT[type="button"], INPUT[type="submit"], INPUT[type="file"]
+/*MISC
+----------------------------------------------------------*/
+.clear
 {
-	-moz-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
+	clear: both;
 }
-INPUT[type="button"], INPUT[type="submit"]
+.error
 {
-	border: 1px solid #AAA;
-	background-color: #F8FEFC;
-	padding: 8px;
-	cursor: pointer;
-	width: 160px;
+	color: #FF0000;
 }
-INPUT[type="file"]
+.UserInfo
 {
-	border: 1px solid #AAA;
-	background-color: #F8FEFC;
+	text-align: right;
+	text-decoration: none;
+	padding-right: 5px;
+}
+.UserInfo *
+{
+	padding: 3px;
+}
+.UserInfo A
+{
+	text-decoration: none;
+	font: 1em Arial;
+	color: #AAA;
+}
+.checkout
+{
+	padding-top: 15px;
+	padding-left: 5px;
+}
+.loginContent .rightbox
+{
+	text-align: right;
+	margin: 0px;
 	padding: 5px;
+}
+.empty-row TD
+{
+	text-align: center;
+	height: 30px;
+}
+.edit_confirm_button, .delete_button, .edit_button, .edit_cancel_button, .restore_button
+{
 	cursor: pointer;
-	width: 323px;
+}
+.container
+{
+	margin: 10px -5px;
+	padding: 0px;
+}
+.container .left, .right, .middle
+{
+	float: left;
+	width: 163px;
+	background: #222;
+	padding: 10px;
+	margin: 5px 5px 5px 35px;
+	text-align: center;
+}
+.container .middle
+{
+	float: none;
+	width: 845px;
+}
+.container .right
+{
+	text-align: center;
+}
+.small
+{
+	width: 300px;
+}
+.product_image
+{
+	cursor: pointer;
+	width: 200px;
+	height: 150px;
+}
+.delivery
+{
+	display: none;
+}
+.field-validation-error
+{
+	color: #FF0000;
+}
+.errorinfo
+{
+	border: 1px solid #ea144a;
 }

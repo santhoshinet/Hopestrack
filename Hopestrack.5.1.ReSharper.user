@@ -11,33 +11,33 @@
     <ItemStatistics item="Default">
       <Item value="Hopestrack" priority="0" />
       <Item value="Controllers" priority="0" />
-      <Item value="HttpGet" priority="1" />
+      <Item value="HttpGet" priority="3" />
       <Item value="Authorize" priority="3" />
-      <Item value="public" priority="1" />
-      <Item value="ActionResult`0" priority="1" />
-      <Item value="string" priority="3" />
+      <Item value="public" priority="10" />
+      <Item value="ActionResult`0" priority="3" />
+      <Item value="string" priority="24" />
       <Item value="menus" priority="6" />
       <Item value="HopestrackDL" priority="0" />
       <Item value="menu" priority="7" />
-      <Item value="ViewData" priority="1" />
+      <Item value="ViewData" priority="4" />
       <Item value="ContentPage`0" priority="2" />
       <Item value="contentPages" priority="6" />
       <Item value="contentPage" priority="5" />
       <Item value="MenuModel`0" priority="2" />
       <Item value="menuModel" priority="10" />
-      <Item value="return" priority="1" />
-      <Item value="View`0" priority="0" />
+      <Item value="return" priority="6" />
+      <Item value="View`0" priority="3" />
       <Item value="Menu`0" priority="3" />
       <Item value="from" priority="0" />
-      <Item value="scope" priority="7" />
+      <Item value="scope" priority="9" />
       <Item value="where" priority="1" />
       <Item value="c" priority="1" />
       <Item value="select" priority="1" />
-      <Item value="if" priority="5" />
-      <Item value="else" priority="1" />
-      <Item value="ModelState" priority="3" />
-      <Item value="var" priority="1" />
-      <Item value="new" priority="1" />
+      <Item value="if" priority="15" />
+      <Item value="else" priority="6" />
+      <Item value="ModelState" priority="9" />
+      <Item value="var" priority="4" />
+      <Item value="new" priority="5" />
       <Item value="Name" priority="0" />
       <Item value="Page" priority="0" />
       <Item value="RedirectToAction`0" priority="0" />
@@ -47,6 +47,55 @@
       <Item value="HttpPost" priority="0" />
       <Item value="foreach" priority="1" />
       <Item value="break" priority="0" />
+      <Item value="JobSeekers" priority="0" />
+      <Item value="Double`0" priority="3" />
+      <Item value="byte" priority="0" />
+      <Item value="pgList" priority="0" />
+      <Item value="industries" priority="0" />
+      <Item value="functionalareas" priority="0" />
+      <Item value="null" priority="5" />
+      <Item value="gender" priority="0" />
+      <Item value="ViewContext`0" priority="0" />
+      <Item value="selectedUgQualification" priority="2" />
+      <Item value="qualification" priority="0" />
+      <Item value="selectedPgQualification" priority="2" />
+      <Item value="industry" priority="0" />
+      <Item value="selectedFunctionalArea" priority="4" />
+      <Item value="functional" priority="0" />
+      <Item value="private" priority="1" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="GetUgQualifications`0" priority="1" />
+      <Item value="GetPgQualifications`0" priority="0" />
+      <Item value="GetIndustries`0" priority="0" />
+      <Item value="GetFunctionalArea`0" priority="0" />
+      <Item value="result" priority="4" />
+      <Item value="jobSeekerModel" priority="24" />
+      <Item value="Request" priority="0" />
+      <Item value="selectedGender" priority="2" />
+      <Item value="selectedIndustry" priority="3" />
+      <Item value="Required" priority="0" />
+      <Item value="CssClassPropertyAttribute`0" priority="1" />
+      <Item value="postEventSourceID" priority="0" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="0" />
+      <Item value="Attachment`0" priority="2" />
+      <Item value="JobSeeker`0" priority="1" />
+      <Item value="Attachment" priority="0" />
+      <Item value="jobSeeker" priority="25" />
+      <Item value="attachment" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="Employer.js" priority="0" />
+      <Item value="EmployerModel`0" priority="0" />
+      <Item value="model" priority="32" />
+      <Item value="ValidateRequest" priority="0" />
+      <Item value="Employer`0" priority="0" />
+      <Item value="employer" priority="33" />
+      <Item value="MulticastDelegate`0" priority="0" />
+      <Item value="qry" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="SqlConnection`0" priority="0" />
+      <Item value="connection" priority="3" />
+      <Item value="ExecuteQry`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:HopestrackDL.Menu">
       <Item value="ParentId" priority="0" />
@@ -55,12 +104,12 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Equals`0" priority="3" />
-      <Item value="ToLower`0" priority="3" />
-      <Item value="Trim`0" priority="0" />
+      <Item value="ToLower`0" priority="8" />
+      <Item value="Trim`0" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Empty" priority="1" />
-      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Empty" priority="10" />
+      <Item value="IsNullOrEmpty`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:HopestrackDL.ContentPage">
       <Item value="Name" priority="8" />
@@ -73,8 +122,8 @@
     <ItemStatistics item="Qualified:Telerik.OpenAccess.IObjectScope">
       <Item value="GetOqlQuery`0" priority="1" />
       <Item value="Tracking" priority="0" />
-      <Item value="Transaction" priority="3" />
-      <Item value="Add`0" priority="1" />
+      <Item value="Transaction" priority="4" />
+      <Item value="Add`0" priority="2" />
       <Item value="Remove`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Telerik.OpenAccess.Query`1">
@@ -85,83 +134,224 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Count" priority="2" />
+      <Item value="Sort`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
-      <Item value="AddModelError`0" priority="0" />
-      <Item value="IsValid" priority="1" />
+      <Item value="AddModelError`0" priority="3" />
+      <Item value="IsValid" priority="3" />
+      <Item value="Values" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Telerik.OpenAccess.ITransaction">
       <Item value="Begin`0" priority="1" />
-      <Item value="Commit`0" priority="1" />
+      <Item value="Commit`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Object">
-      <Item value="ToString`0" priority="0" />
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
+      <Item value="Text" priority="0" />
+      <Item value="EmailAddress" priority="1" />
+      <Item value="Date" priority="2" />
+      <Item value="PhoneNumber" priority="5" />
+      <Item value="Duration" priority="2" />
+      <Item value="Currency" priority="4" />
+      <Item value="Custom" priority="1" />
+      <Item value="MultilineText" priority="5" />
+      <Item value="nguid" priority="0" />
+      <Item value="DateTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hopestrack.Models.JobSeekerModel">
+      <Item value="FirstName" priority="2" />
+      <Item value="LastName" priority="1" />
+      <Item value="EmailID" priority="1" />
+      <Item value="DateOfBirth" priority="2" />
+      <Item value="OptionalEmailID" priority="1" />
+      <Item value="PhoneNo" priority="2" />
+      <Item value="MobileNo" priority="2" />
+      <Item value="UgOthers" priority="3" />
+      <Item value="PgOthers" priority="3" />
+      <Item value="IndustryOthers" priority="4" />
+      <Item value="FunctionalOthers" priority="3" />
+      <Item value="PrimarySkillSet" priority="1" />
+      <Item value="SecondarySkillSet" priority="2" />
+      <Item value="RelaventExperience" priority="2" />
+      <Item value="TotalExperience" priority="2" />
+      <Item value="ResumeAttachment" priority="0" />
+      <Item value="CurrentCtc" priority="2" />
+      <Item value="ExpectedCtc" priority="2" />
+      <Item value="Gender" priority="1" />
+      <Item value="UgQualification" priority="1" />
+      <Item value="PgQualification" priority="1" />
+      <Item value="Industry" priority="1" />
+      <Item value="Functional" priority="0" />
+      <Item value="NoticePeriod" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="TextAreaFor`2" priority="1" />
+      <Item value="TextBoxFor`2" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="Form" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HopestrackDL.JobSeeker">
+      <Item value="CurrentCtc" priority="0" />
+      <Item value="DateOfBirth" priority="0" />
+      <Item value="EmailID" priority="1" />
+      <Item value="ExpectedCtc" priority="0" />
+      <Item value="FirstName" priority="0" />
+      <Item value="Functional" priority="0" />
+      <Item value="FunctionalOthers" priority="0" />
+      <Item value="Gender" priority="0" />
+      <Item value="Industry" priority="0" />
+      <Item value="IndustryOthers" priority="0" />
+      <Item value="LastName" priority="0" />
+      <Item value="MobileNo" priority="0" />
+      <Item value="NoticePeriod" priority="0" />
+      <Item value="OptionalEmailID" priority="0" />
+      <Item value="PgOthers" priority="0" />
+      <Item value="PgQualification" priority="0" />
+      <Item value="PhoneNo" priority="0" />
+      <Item value="PrimarySkillSet" priority="0" />
+      <Item value="RelaventExperience" priority="0" />
+      <Item value="ResumeAttachment" priority="1" />
+      <Item value="SecondarySkillSet" priority="0" />
+      <Item value="TotalExperience" priority="0" />
+      <Item value="UgOthers" priority="0" />
+      <Item value="UgQualification" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hopestrack.Models.EmployerModel">
+      <Item value="NameOftheCompany" priority="2" />
+      <Item value="AddressOftheCompany" priority="2" />
+      <Item value="NatureOfBusiness" priority="1" />
+      <Item value="Totalturnover" priority="2" />
+      <Item value="Totalregularmanpower" priority="1" />
+      <Item value="Contractbaselabours" priority="2" />
+      <Item value="ContactPerson" priority="2" />
+      <Item value="PhoneNoOffice" priority="2" />
+      <Item value="PhoneNoResident" priority="2" />
+      <Item value="FaxNo" priority="2" />
+      <Item value="Position" priority="2" />
+      <Item value="NoOfPositionsRequired" priority="2" />
+      <Item value="Academic" priority="2" />
+      <Item value="TechnicalOrProfessional" priority="1" />
+      <Item value="ExperienceFrom" priority="2" />
+      <Item value="ExperienceTo" priority="2" />
+      <Item value="Industry" priority="1" />
+      <Item value="AgeFrom" priority="2" />
+      <Item value="AgeTo" priority="2" />
+      <Item value="PlaceOfWork" priority="1" />
+      <Item value="Jobdescription" priority="1" />
+      <Item value="Preferences" priority="2" />
+      <Item value="GrossSalaryFrom" priority="2" />
+      <Item value="GrossSalaryTo" priority="2" />
+      <Item value="AdditionalBenefits" priority="3" />
+      <Item value="ProbableDate" priority="2" />
+      <Item value="ProbableDateOfInterview" priority="2" />
+      <Item value="InterviewLocation" priority="2" />
+      <Item value="InterviewerName" priority="2" />
+      <Item value="InterviewerPosition" priority="1" />
+      <Item value="EmailID" priority="0" />
+      <Item value="MobileNo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HopestrackDL.Employer">
+      <Item value="Academic" priority="0" />
+      <Item value="AdditionalBenefits" priority="0" />
+      <Item value="AddressOftheCompany" priority="0" />
+      <Item value="AgeFrom" priority="0" />
+      <Item value="AgeTo" priority="0" />
+      <Item value="ContactPerson" priority="0" />
+      <Item value="Contractbaselabours" priority="0" />
+      <Item value="EmailID" priority="0" />
+      <Item value="ExperienceFrom" priority="0" />
+      <Item value="ExperienceTo" priority="0" />
+      <Item value="FaxNo" priority="0" />
+      <Item value="GrossSalaryFrom" priority="0" />
+      <Item value="GrossSalaryTo" priority="0" />
+      <Item value="Industry" priority="0" />
+      <Item value="InterviewerName" priority="0" />
+      <Item value="InterviewerPosition" priority="0" />
+      <Item value="InterviewLocation" priority="0" />
+      <Item value="Jobdescription" priority="0" />
+      <Item value="MobileNo" priority="0" />
+      <Item value="NameOftheCompany" priority="0" />
+      <Item value="NatureOfBusiness" priority="0" />
+      <Item value="NoOfPositionsRequired" priority="0" />
+      <Item value="PhoneNoOffice" priority="0" />
+      <Item value="PhoneNoResident" priority="0" />
+      <Item value="PlaceOfWork" priority="0" />
+      <Item value="Position" priority="0" />
+      <Item value="Preferences" priority="0" />
+      <Item value="ProbableDate" priority="0" />
+      <Item value="ProbableDateOfInterview" priority="0" />
+      <Item value="TechnicalOrProfessional" priority="0" />
+      <Item value="Totalregularmanpower" priority="0" />
+      <Item value="Totalturnover" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:LogOn.aspx" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:ChangePasswordSuccess.aspx" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Account/f:ChangePassword.aspx" caret="0" fromTop="0" />
       <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:AddImage.aspx" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Images.aspx" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Index.aspx" caret="1151" fromTop="24" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Ctrladdimage.ascx" caret="564" fromTop="14" />
-      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:Menu.cs" caret="294" fromTop="13" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditPage.aspx" caret="1879" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Models/f:ImageModel.cs" caret="376" fromTop="14" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Models/f:ControlpanelModel.cs" caret="553" fromTop="23" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:EditMenu.aspx" caret="1667" fromTop="12" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:AddMenu.aspx" caret="1908" fromTop="27" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:AccountController.cs" caret="892" fromTop="26" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Home/f:Index.aspx" caret="306" fromTop="5" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:Ajaxaddimage.css" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:dynamicContent.css" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:layout1.css" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:Pages.aspx" caret="3167" fromTop="21" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:menus.aspx" caret="2854" fromTop="12" />
-      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:App.config.server" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="14248" fromTop="348" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:HomeController.cs" caret="249" fromTop="10" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Models/f:ImageModel.cs" caret="250" fromTop="10" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:LogOnUserControl.ascx" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Scripts/f:JQValidation.js" caret="2289" fromTop="67" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:Attachment.cs" caret="205" fromTop="10" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:Images.cs" caret="293" fromTop="14" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:JobSeeker.cs" caret="212" fromTop="10" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Models/f:ControlpanelModel.cs" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Status.aspx" caret="346" fromTop="6" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Models/f:ProfilesModel.cs" caret="8067" fromTop="34" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:Employer.cs" caret="1775" fromTop="69" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ProfilesController.cs" caret="15247" fromTop="34" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Default.aspx" caret="107" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Default.aspx.cs" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Scripts/f:jquery-ui-1.8.13.custom.min.js" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:JobSeekers.aspx" caret="14543" fromTop="22" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Scripts/f:JobSeeker.js" caret="5415" fromTop="13" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Scripts/f:Employer.js" caret="3872" fromTop="16" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="991" fromTop="21" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:home.css" caret="292" fromTop="24" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:Employer.aspx" caret="10766" fromTop="42" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Home/f:Pages.aspx" caret="207" fromTop="3" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Home/f:Index.aspx" caret="345" fromTop="5" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:HomeController.cs" caret="1901" fromTop="34" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="13985" fromTop="34" />
+      <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:App.config" caret="0" fromTop="0" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="3750" fromTop="25" />
       <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:ObjectScopeProvider1.cs" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:AddPage.aspx" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="18" fromTop="2" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:home.css" caret="170" fromTop="15" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="1321" fromTop="22" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="0" fromTop="0" />
+      <File id="175E1575-1B52-4567-BBAC-774C23F2799E/f:Program.cs" caret="957" fromTop="23" />
     </RecentFiles>
     <RecentEdits>
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Controlpanel/f:menus.aspx" caret="2996" fromTop="24" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="11888" fromTop="26" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="13541" fromTop="14" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="6558" fromTop="22" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="6799" fromTop="26" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="7287" fromTop="24" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="7555" fromTop="22" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="8043" fromTop="28" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="9032" fromTop="32" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="9289" fromTop="33" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="9548" fromTop="31" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="9738" fromTop="30" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="10761" fromTop="28" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="12679" fromTop="32" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="14271" fromTop="28" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="15338" fromTop="27" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:ControlpanelController.cs" caret="15960" fromTop="30" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="268" fromTop="5" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="1473" fromTop="17" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="1418" fromTop="8" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="1304" fromTop="16" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="656" fromTop="11" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Web.config" caret="1789" fromTop="22" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="969" fromTop="19" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="2106" fromTop="11" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="2340" fromTop="24" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="645" fromTop="4" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:home.css" caret="77" fromTop="8" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="226" fromTop="12" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="2024" fromTop="8" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="2471" fromTop="13" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="2985" fromTop="26" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="3488" fromTop="19" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:Employer.aspx" caret="7215" fromTop="17" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:Employer.aspx" caret="7543" fromTop="22" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:Employer.aspx" caret="8435" fromTop="18" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:Employer.aspx" caret="8812" fromTop="25" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:Employer.aspx" caret="10504" fromTop="16" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Profiles/f:Employer.aspx" caret="10904" fromTop="23" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="3324" fromTop="19" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:FormLayout.css" caret="1114" fromTop="13" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:HomeController.cs" caret="2628" fromTop="21" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:HomeController.cs" caret="2150" fromTop="9" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Controllers/f:HomeController.cs" caret="2425" fromTop="14" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Home/f:Pages.aspx" caret="207" fromTop="3" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Home/f:Index.aspx" caret="345" fromTop="5" />
+      <File id="175E1575-1B52-4567-BBAC-774C23F2799E/f:Program.cs" caret="819" fromTop="21" />
+      <File id="175E1575-1B52-4567-BBAC-774C23F2799E/f:Program.cs" caret="595" fromTop="16" />
+      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/f:Global.asax.cs" caret="3750" fromTop="19" />
       <File id="AD1F532C-A9F4-4326-866F-4FA4EE9566C5/f:ObjectScopeProvider1.cs" caret="0" fromTop="0" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="1498" fromTop="26" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Views/d:Shared/f:Site.Master" caret="583" fromTop="14" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:home.css" caret="35" fromTop="3" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:home.css" caret="170" fromTop="14" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:home.css" caret="296" fromTop="29" />
-      <File id="BCE74F21-B02D-4DCE-8CC0-870255512739/d:Content/f:home.css" caret="102" fromTop="9" />
+      <File id="175E1575-1B52-4567-BBAC-774C23F2799E/f:Program.cs" caret="1048" fromTop="29" />
+      <File id="175E1575-1B52-4567-BBAC-774C23F2799E/f:Program.cs" caret="481" fromTop="12" />
+      <File id="175E1575-1B52-4567-BBAC-774C23F2799E/f:Program.cs" caret="893" fromTop="20" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

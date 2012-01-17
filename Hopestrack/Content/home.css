@@ -7,7 +7,12 @@ body
 {
 	padding:10px;
 	margin:0px;
-	background-color: #fff;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	font: 1em Arial;
 }
 .content
 {
@@ -20,12 +25,25 @@ body
 	clear:both;
 	float:none;
 }
-#Menu
+#Menu 
+{
+	background-color:#96b9a6;
+	padding:5px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	font: 0.9em Arial;
+}
+#Menu ul
 {
 	list-style:none;
 }
-#Menu li
+#Menu ul li
 {
 	float:left;
-	margin-right: 10px;
+	margin-right: 5px;
+}
+#Menu a
+{
+	text-decoration:none;
+	color:#eee;
 }

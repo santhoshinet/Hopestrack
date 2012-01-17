@@ -93,6 +93,7 @@ namespace Hopestrack
             //routes.MapRoute("Default", "{controller}/{action}/{pid}", new { controller = "Home", action = "Pages", pid = "Index" } // Parameter defaults
             //routes.MapRoute("Default", "{controller}/{action}/{pid}", new { controller = "Controlpanel", action = "AddPage", pid = "Index" } // Parameter defaults
             routes.MapRoute("Default", "{controller}/{action}", new { controller = "Home", action = "Index" });
+            //routes.MapRoute("Default", "{controller}/{action}", new { controller = "Profiles", action = "Employer" });
         }
 
         protected void Application_Start()
