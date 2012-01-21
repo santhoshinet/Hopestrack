@@ -18,3 +18,5 @@ C:\Users\Santhosh\Desktop\My Works\Hopestrack\Hopestrack\bin\Telerik.OpenAccess.
 C:\Users\Santhosh\Desktop\My Works\Hopestrack\Hopestrack\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Santhosh\Desktop\My Works\Hopestrack\Hopestrack\obj\Debug\Hopestrack.dll
 C:\Users\Santhosh\Desktop\My Works\Hopestrack\Hopestrack\obj\Debug\Hopestrack.pdb
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\Hopestrack\bin\HopestrackDL.dll
+C:\Users\Santhosh\Desktop\My Works\Hopestrack\Hopestrack\bin\HopestrackDL.pdb

@@ -4,7 +4,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head" runat="server">
     <title>Menus</title>
-    <link href="/Content/stylesheet_default.css" rel="stylesheet" type="text/css" />
     <link href="/Content/FormLayout.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,16 +24,19 @@
                 <table id="Cart_Table">
                     <thead>
                         <tr>
-                            <th>
+                            <th style="width: 20px">
                                 Sno
                             </th>
-                            <th style="width: 40%">
+                            <th style="width: 150px">
                                 Name
                             </th>
-                            <th style="width: 40%">
+                            <th style="width: 250px">
                                 Page name
                             </th>
-                            <th style="width: 160px" colspan="2">
+                            <th style="width: 150px">
+                                Parent
+                            </th>
+                            <th style="width: 200px" colspan="2">
                                 Actions
                             </th>
                         </tr>
@@ -54,14 +56,28 @@
                                 <%=menu.Page.Name%>
                             </td>
                             <td>
-                                <span class="delete_button">
-                                    <img src="/Images/ico-delete.gif" />
-                                    <a href="/deletemenu/<%= menu.Id %>" class="ViewProfile">delete</a></span>
+                                <%
+                                    var parent = menu.Parent;
+                                    if (parent != null)
+                                    {%>
+                                <%= parent.Name%>
+                                <%
+                                    }
+                                    else
+                                    {%>
+                                ---Root---
+                                <%
+                                    }%>
                             </td>
                             <td>
                                 <span class="edit_button">
                                     <img src="/Images/edit.gif" />
                                     <a href="/editmenu/<%= menu.Id %>" class="ViewProfile">edit</a> </span>
+                            </td>
+                            <td>
+                                <span class="delete_button">
+                                    <img src="/Images/ico-delete.gif" />
+                                    <a href="/deletemenu/<%= menu.Id %>" class="ViewProfile">delete</a></span>
                             </td>
                         </tr>
                         <%

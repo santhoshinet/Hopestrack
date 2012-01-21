@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Telerik.OpenAccess;
 
 namespace HopestrackDL
@@ -17,8 +19,31 @@ namespace HopestrackDL
 
         public string Id { get; set; }
 
-        public string ParentId { get; set; }
+        public string ParentId{get; set; }
 
         public ContentPage Page { get; set; }
+
+        public Menu Parent { get
+        {
+                var scope = ObjectScopeProvider1.GetNewObjectScope();
+                var menus = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                             where c.Id != null && c.Id.Equals(ParentId)
+                             select c).ToList();
+                if (menus.Count > 0)
+                    return   menus[0];
+                return null;
+            }
+        }
+
+        public List<Menu> Children
+        {
+            get
+            {
+                var scope = ObjectScopeProvider1.GetNewObjectScope();
+                return (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                             where c.ParentId != null && c.ParentId.Equals(Id)
+                             select c).ToList();
+            }
+        }
     }
 }

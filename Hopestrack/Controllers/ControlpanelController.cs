@@ -20,7 +20,6 @@ namespace Hopestrack.Controllers
             {
                 var scope = ObjectScopeProvider1.GetNewObjectScope();
                 ViewData["menus"] = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
-                                     where c.ParentId.Equals(string.Empty)
                                      select c).ToList();
                 return View(new MenuModel());
             }
@@ -36,6 +35,9 @@ namespace Hopestrack.Controllers
                 var scope = ObjectScopeProvider1.GetNewObjectScope();
                 ViewData["ContentPages"] = (from c in scope.GetOqlQuery<ContentPage>().ExecuteEnumerable()
                                             select c).ToList();
+                ViewData["menus"] =  (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                                      where c.ParentId.Equals(string.Empty)
+                                            select c).ToList(); //
                 return View(new MenuModel());
             }
             return RedirectToAction("LogOn", "Account");
@@ -62,15 +64,29 @@ namespace Hopestrack.Controllers
                                             select c).ToList();
                         if (contentPages.Count > 0)
                         {
+                            string selectedMenu = Request.Form["CmbParentMenu"];
+                            string parentID = string.Empty;
+                            if (!string.IsNullOrEmpty(selectedMenu) && selectedMenu.ToLower().Trim() != "--root--")
+                            {
+                                var menuIds = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                                            where c.Id != null && c.Id.Equals(selectedMenu)
+                                            select c.Id).ToList();
+                                if (menuIds.Count > 0)
+                                    parentID = menuIds[0];
+                            }
                             scope.Transaction.Begin();
                             var menu = new Menu
                             {
                                 Name = menuModel.MenuName,
+                                ParentId = parentID,
                                 Page = contentPages[0]
                             };
                             scope.Add(menu);
                             scope.Transaction.Commit();
-                            return RedirectToAction("Menus");
+                            ViewData["menus"] = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                                                 select c).ToList();
+                            return View("menus");
+                            //return RedirectToAction("Menus");
                         }
                         ModelState.AddModelError("", "The Link page is not selected.");
                     }
@@ -94,12 +110,16 @@ namespace Hopestrack.Controllers
                 var contentPages = (from c in scope.GetOqlQuery<ContentPage>().ExecuteEnumerable()
                                     select c).ToList();
                 ViewData["ContentPages"] = contentPages;
+                ViewData["menus"] = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                                     where c.Id != null && !c.Id.Equals(mid)
+                                     select c).ToList();
                 ViewData["Pagename"] = string.Empty;
                 var menus = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
                              where c.Id != null && c.Id.Equals(mid)
                              select c).ToList();
                 if (menus.Count > 0)
                 {
+                    ViewData["ParentMenuId"] = menus[0].ParentId;
                     var menuModel = new MenuModel
                                         {
                                             MenuName = menus[0].Name,
@@ -138,11 +158,22 @@ namespace Hopestrack.Controllers
                                         select c).ToList();
                     if (contentPages.Count > 0)
                     {
+                        string selectedMenu = Request.Form["CmbParentMenu"];
+                        string parentID = string.Empty;
+                        if (!string.IsNullOrEmpty(selectedMenu) && selectedMenu.ToLower().Trim() != "--root--")
+                        {
+                            var menuIds = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                                           where c.Id != null && c.Id.Equals(selectedMenu)
+                                           select c.Id).ToList();
+                            if (menuIds.Count > 0)
+                                parentID = menuIds[0];
+                        }
                         foreach (Menu menu in menus)
                         {
                             scope.Transaction.Begin();
                             menu.Name = menuModel.MenuName;
                             menu.Page = contentPages[0];
+                            menu.ParentId = parentID;
                             scope.Add(menu);
                             scope.Transaction.Commit();
                         }
@@ -167,11 +198,16 @@ namespace Hopestrack.Controllers
         {
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("LogOn", "Account");
+            LoadPages();
+            return View();
+        }
+
+        private void LoadPages()
+        {
             var scope = ObjectScopeProvider1.GetNewObjectScope();
             var pages = (from c in scope.GetOqlQuery<ContentPage>().ExecuteEnumerable()
                          select c).ToList();
             ViewData["webpageList"] = pages;
-            return View();
         }
 
         [Authorize]
@@ -310,7 +346,8 @@ namespace Hopestrack.Controllers
                     }
                     break;
                 }
-                return RedirectToAction("Pages");
+                LoadPages();
+                return View("Pages");
             }
             return View(pageModel);
         }
@@ -341,9 +378,11 @@ namespace Hopestrack.Controllers
                 }
                 catch (Exception)
                 {
-                    return RedirectToAction("Pages");
+                    LoadPages();
+                    return View("Pages");
                 }
-                return RedirectToAction("Pages");
+                LoadPages();
+                return View("Pages");
             }
             return View(adPageModel);
         }
@@ -367,7 +406,8 @@ namespace Hopestrack.Controllers
                 productFile.Id = DateTime.Now.Ticks.ToString();
                 scope.Add((productFile));
                 scope.Transaction.Commit();
-                return RedirectToAction("Images");
+                LoadImages();
+                return View("Images");
             }
             return View(file);
         }
@@ -385,7 +425,8 @@ namespace Hopestrack.Controllers
                 scope.Remove(contentPage);
                 scope.Transaction.Commit();
             }
-            return RedirectToAction("Pages");
+            LoadPages();
+            return View("Pages");
         }
 
         [Authorize]
@@ -401,7 +442,8 @@ namespace Hopestrack.Controllers
                 scope.Remove(image);
                 scope.Transaction.Commit();
             }
-            return RedirectToAction("Images");
+            LoadImages();
+            return View("Images");
         }
 
         [Authorize]
@@ -411,22 +453,34 @@ namespace Hopestrack.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("LogOn", "Account");
             if (ModelState.IsValid)
-            {
-                var scope = ObjectScopeProvider1.GetNewObjectScope();
-                var menus = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
-                             where c.Id != null && c.Id.Equals(mid)
-                             select c).ToList();
-                if (menus.Count > 0)
+                DeleteMenus(mid);
+            var scope = ObjectScopeProvider1.GetNewObjectScope();
+            ViewData["menus"] = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                                 select c).ToList();
+            return View("Menus");
+        }
+
+        private void DeleteMenus(string menuId)
+        {
+            var scope = ObjectScopeProvider1.GetNewObjectScope();
+            var menus = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                         where c.Id != null && c.Id.Equals(menuId)
+                         select c).ToList();
+                foreach (Menu menu in menus)
                 {
-                    foreach (Menu menu in menus)
-                    {
-                        scope.Transaction.Begin();
-                        scope.Remove(menu);
-                        scope.Transaction.Commit();
-                    }
+                        Menu menu1 = menu;
+                        var parentmenus = (from c in scope.GetOqlQuery<Menu>().ExecuteEnumerable()
+                                           where c.ParentId != null && c.ParentId.Equals(menu1.Id)
+                                           select c).ToList();
+                        foreach (var parentmenu in parentmenus)
+                        {
+                            DeleteMenu(parentmenu.Id);
+                        }
+
+                    scope.Transaction.Begin();
+                    scope.Remove(menu);
+                    scope.Transaction.Commit();
                 }
-            }
-            return RedirectToAction("Menus");
         }
     }
 }

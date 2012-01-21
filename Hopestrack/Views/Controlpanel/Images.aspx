@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>Images</title>
-    <link href="/Content/stylesheet_default.css" rel="stylesheet" type="text/css" />
     <link href="/Content/FormLayout.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -26,16 +25,16 @@
                 <table id="Cart_Table" class="Cart_Table">
                     <thead>
                         <tr>
-                            <th style="width: 30px;">
+                            <th style="width: 20px;">
                                 Sno
                             </th>
-                            <th style="width: 140px;">
+                            <th style="width: 200px;">
                                 Picture
                             </th>
-                            <th style="width: 340px;">
+                            <th style="width: 465px;">
                                 Url
                             </th>
-                            <th style="width: 75px;">
+                            <th style="width: 100px;">
                                 Actions
                             </th>
                         </tr>
@@ -52,10 +51,12 @@
                                 <img alt="" class="product_image" src="/Photo/<%=file.Id%>" title="<%= file.Filename %>" />
                             </td>
                             <td>
-                                /Photo/<%=file.Id%>
+                                <a href="/Photo/<%=file.Id%>" target="_blank">/Photo/<%=file.Id%></a>
                             </td>
                             <td>
-                                <a href="/DeleteImage/<%= file.Id %>" class="ViewProfile">Delete</a>
+                                <span class="delete_button">
+                                    <img src="/Images/ico-delete.gif" />
+                                    <a href="/DeleteImage/<%= file.Id %>" class="ViewProfile">Delete</a> </span>
                             </td>
                         </tr>
                         <%

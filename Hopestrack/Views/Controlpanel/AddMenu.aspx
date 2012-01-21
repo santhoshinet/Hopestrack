@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Add Menu</title>
-    <link href="/Content/stylesheet_default.css" rel="stylesheet" type="text/css" />
     <link href="/Content/FormLayout.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -27,6 +26,25 @@
             <li>
                 <%= Html.TextBoxFor(m => m.MenuName)%>
                 <%= Html.ValidationMessageFor(m => m.MenuName)%>
+            </li>
+            <li>
+                <label>
+                    Parent Menu
+                </label>
+            </li>
+            <li>
+                <select id="CmbParentMenu" name="CmbParentMenu">
+                    <option value="Root" title="Root">--Root--</option>
+                    <%
+                        var menus = (List<HopestrackDL.Menu>)ViewData["menus"];%>
+                    <% foreach (var menu in menus)
+                       {
+                    %>
+                    <option value="<%= menu.Id %>" title="<%= menu.Name %>">
+                        <%= menu.Name %>
+                    </option>
+                    <% } %>
+                </select>
             </li>
             <li>
                 <label>

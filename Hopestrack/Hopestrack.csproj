@@ -164,6 +164,7 @@
     <Content Include="Content\home.css" />
     <Content Include="Content\jquery-ui-1.8.16.custom.css" />
     <Content Include="Content\SpryMenuBarHorizontal.css" />
+    <Content Include="Content\stylesheet_default.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -193,7 +194,9 @@
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="Default.aspx" />
     <Content Include="Images\bg.jpg" />
+    <Content Include="Images\Edit.gif" />
     <Content Include="Images\flash1.jpg" />
+    <Content Include="Images\ico-delete.gif" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Scripts\AC_RunActiveContent.js" />
     <Content Include="Scripts\crawler.js" />
@@ -280,7 +283,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties OpenAccess_ConfigFile="Web.config" OpenAccess_ConnectionId="DatabaseConnection1" OpenAccess_Enhancing="True" OpenAccess_UpdateDatabase="False" OpenAccess_EnhancementOutputLevel="1" />
+      <UserProperties OpenAccess_EnhancementOutputLevel="1" OpenAccess_UpdateDatabase="False" OpenAccess_Enhancing="True" OpenAccess_ConnectionId="DatabaseConnection1" OpenAccess_ConfigFile="Web.config" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

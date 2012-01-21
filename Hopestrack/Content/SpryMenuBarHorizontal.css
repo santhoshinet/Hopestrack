@@ -1,4 +1,4 @@
-﻿ul.MenuBarHorizontal
+UL.MenuBarHorizontal
 {
 	margin: 0;
 	padding: 0;
@@ -7,11 +7,11 @@
 	cursor: default;
 	width: auto;
 }
-ul.MenuBarActive
+UL.MenuBarActive
 {
 	z-index: 1000;
 }
-ul.MenuBarHorizontal li
+UL.MenuBarHorizontal LI
 {
 	list-style-type: none;
 	font-size: 100%;
@@ -19,17 +19,11 @@ ul.MenuBarHorizontal li
 	text-align: left;
 	cursor: pointer;
 	width: auto;
-	float: left;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0;
+	float: right;
+	margin: 0;
+	padding: 0;
 }
-ul.MenuBarHorizontal ul
+UL.MenuBarHorizontal UL
 {
 	margin: 0;
 	padding: 0;
@@ -41,79 +35,78 @@ ul.MenuBarHorizontal ul
 	position: absolute;
 	left: -1000em;
 }
-ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
+UL.MenuBarHorizontal UL.MenuBarSubmenuVisible
 {
 	left: auto;
 }
-ul.MenuBarHorizontal ul li
+UL.MenuBarHorizontal UL LI
 {
 	width: 8.2em;
 }
-ul.MenuBarHorizontal ul ul
+UL.MenuBarHorizontal UL UL
 {
 	position: center;
-	margin: -05% 0 0 95%;
+	margin: -5% 0 0 95%;
 }
-ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible
+UL.MenuBarHorizontal UL.MenuBarSubmenuVisible UL.MenuBarSubmenuVisible
 {
 	center: auto;
 	top: 0;
 }
-ul.MenuBarHorizontal ul
+UL.MenuBarHorizontal UL
 {
-	border: 1px solid #CCC;
+	border: 1px solid #96B9A6;
 }
-ul.MenuBarHorizontal a
+UL.MenuBarHorizontal A
 {
 	display: block;
 	cursor: pointer;
-	background-color: #EEE;
-	padding: 0.5em 1.60em;
+	background-color: #6FA387;
+	padding: 0.5em 1.6em;
 	color: #333;
 	text-decoration: none;
 }
-ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
+UL.MenuBarHorizontal A:hover, UL.MenuBarHorizontal A:focus
 {
-	background-color: #CCC;
+	background-color: #245E60;
+}
+UL.MenuBarHorizontal A.MenuBarItemHover, UL.MenuBarHorizontal A.MenuBarItemSubmenuHover, UL.MenuBarHorizontal A.MenuBarSubmenuVisible
+{
+	background-color: #356363;
 	color: #000;
 }
-ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
-{
-	background-color: #CCC;
-	color: #000;
-}
-ul.MenuBarHorizontal a.MenuBarItemSubmenu
+UL.MenuBarHorizontal A.MenuBarItemSubmenu
 {
 	background-image: url(SpryMenuBarDown.gif);
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 }
-ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
+UL.MenuBarHorizontal UL A.MenuBarItemSubmenu
 {
 	background-image: url(SpryMenuBarRight.gif);
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 }
-ul.MenuBarHorizontal a.MenuBarItemSubmenuHover
+UL.MenuBarHorizontal A.MenuBarItemSubmenuHover
 {
 	background-image: url(SpryMenuBarDownHover.gif);
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 }
-ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover
+UL.MenuBarHorizontal UL A.MenuBarItemSubmenuHover
 {
 	background-image: url(SpryMenuBarRightHover.gif);
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 }
-ul.MenuBarHorizontal iframe
+UL.MenuBarHorizontal IFRAME
 {
 	position: absolute;
 	z-index: 1010;
 }
 @media screen, projection
 {
-	ul.MenuBarHorizontal li.MenuBarItemIE
+	UL.MenuBarHorizontal LI.MenuBarItemIE
 	{
 		display: inline;
 		f\loat: center;

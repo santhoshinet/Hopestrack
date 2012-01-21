@@ -4,7 +4,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>EditPage</title>
-    <link href="/Content/stylesheet_default.css" rel="stylesheet" type="text/css" />
     <link href="/Content/FormLayout.css" rel="stylesheet" type="text/css" />
 </head>
 <body>

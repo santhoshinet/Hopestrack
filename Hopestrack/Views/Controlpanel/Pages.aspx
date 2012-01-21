@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>Pages</title>
-    <link href="/Content/stylesheet_default.css" rel="stylesheet" type="text/css" />
     <link href="/Content/FormLayout.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -26,13 +25,13 @@
                 <table id="Cart_Table" class="Cart_Table">
                     <thead>
                         <tr>
-                            <th style="width: 30px;">
+                            <th style="width: 20px;">
                                 Sno
                             </th>
-                            <th style="width: 240px;">
+                            <th style="width: 580px;">
                                 Page Title
                             </th>
-                            <th style="width: 175px;">
+                            <th style="width: 200px;">
                                 Actions
                             </th>
                         </tr>
@@ -49,8 +48,13 @@
                                 <%= webPage.Name %>
                             </td>
                             <td>
-                                <a href="/editpage/<%= webPage.Id %>" class="ViewProfile">Edit Page</a> <a href="/deletepage/<%= webPage.Id %>"
-                                    class="ViewProfile">Delete Page</a>
+                                <span class="edit_button">
+                                    <img src="/Images/edit.gif">
+                                    <a href="/editpage/<%= webPage.Id %>" class="ViewProfile">Edit Page</a> </span>
+                                <span class="delete_button">
+                                    <img src="/Images/ico-delete.gif" />
+                                    <a href="/deletepage/<%= webPage.Id %>" class="ViewProfile">Delete Page</a>
+                                </span>
                             </td>
                         </tr>
                         <%

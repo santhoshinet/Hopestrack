@@ -1,10 +1,13 @@
+BODY
+{
+	background: #EEE;
+}
 FORM
 {
 	padding: 0px;
 	margin: 0px;
 	border: 1px solid #CCC;
-	background-color: #f2f6f4;
-	width: 750px;
+	background-color: #F2F6F4;
 	-moz-border-radius: 12px;
 	-khtml-border-radius: 12px;
 	-webkit-border-radius: 12px;
@@ -13,21 +16,19 @@ FORM
 .ul
 {
 	list-style-type: none;
-	margin: 0px;
-	padding-left: 0px;
-	margin-left: 0px;
-	padding: 10px;
-	padding-top: 5px;
+	margin: 0 auto;
+	padding: 5px 10px 10px 30px;
 }
 .ul LI
 {
 	margin: 0px;
 	padding-bottom: 5px;
 }
-.ul H2
+.ul H2, H3, LABEL
 {
 	margin: 0px;
 	padding: 0px;
+	color: #444;
 }
 .h2
 {
@@ -46,12 +47,11 @@ FORM
 {
 	font-size: 0.75em;
 	font-family: Arial, Helvetica, Sans-Serif;
-	padding: 10px;
-	margin: 0px;
 	min-height: 400px;
-	width: 750px;
-	margin: 20px auto;
-	padding-bottom: 20px;
+	margin: 10px auto;
+	text-align: left;
+	left: 50%;
+	width: 904px;
 }
 .loginContent .text-box
 {
@@ -70,7 +70,6 @@ FORM
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	margin-left: 10px;
 }
 .loginContent UL LI
 {
@@ -87,10 +86,9 @@ INPUT[type="button"], INPUT[type="submit"], INPUT[type="file"]
 {
 	width: 385px;
 	padding: 5px;
-	margin: 0px;	
+	margin: 0px;
 	border: 1px solid #A8E1C7;
 	background-color: #F8FEFC;
-	
 }
 .loginContent INPUT[type="button"], INPUT[type="submit"]
 {
@@ -113,17 +111,18 @@ INPUT[type="button"], INPUT[type="submit"], INPUT[type="file"]
 	background-color: #F8FEFC;
 	padding: 5px;
 	cursor: pointer;
-	width: 323px;
+	width: 390px;
 }
 .loginContent SELECT
 {
 	width: 400px;
 	padding: 3px;
 	margin: 0px;
+	color: #333;
 }
-input[type="text"]:focus, input[type="password"]:focus,SELECT:focus,textarea:focus
+INPUT[type="text"]:focus, INPUT[type="password"]:focus, SELECT:focus, TEXTAREA:focus
 {
-	background-color: #fafbd4;
+	background-color: #FAFBD4;
 	color: #111;
 }
 INPUT[type="submit"]:hover, INPUT[type="button"]:hover
@@ -223,5 +222,37 @@ INPUT[type="submit"]:focus, INPUT[type="button"]:focus
 }
 .errorinfo
 {
-	border: 1px solid #ea144a;
+	border: 1px solid #EA144A;
+}
+#Cart_Table THEAD
+{
+	text-align: left;
+	font: 1.1em sans-serif;
+	background: #E4E4CF url(#);
+	padding: 0px 0;
+	color: #555;
+}
+#Cart_Table THEAD TH, TD
+{
+	padding: 5px;
+	margin: 0px;
+}
+#Cart_Table
+{
+	border: 1px solid #DBDBDB;
+	color: #333;
+	background: #F5F8F7;
+}
+#Cart_Table TBODY TR:nth-child(even)
+{
+	background: #F1F1EB;
+}
+#Cart_Table A
+{
+	text-decoration: none;
+	color: #555;
+}
+#Cart_Table IMG
+{
+	margin: 0px 0 -3px;
 }
